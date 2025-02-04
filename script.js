@@ -13,6 +13,6 @@ function calculate() {
     display.value = eval(display.value);
   }
   catch(error) {
-    display.error = "Error";
+    display.value = "Error";
   }
 }
